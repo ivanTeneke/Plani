@@ -1,0 +1,71 @@
+  /* Texto que se encuentra debajo del carrusel */
+
+.conteiner-info-home{
+  width: 90% !important;
+  height: 120px;
+  padding-left: 400px;
+  margin-top: -100px;
+}
+
+  /* estilos de las card de los proyectos */
+  .accordion {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-radius: 12px;
+    margin:10px 10px 10px 0px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight:600;
+      font-family: 'Ubuntu', sans-serif;
+  }
+  .arrowup{
+    font-family: 'Ubuntu', sans-serif;
+    width:24px;
+    height:auto;
+    float:right;
+  transform: rotate(180deg);
+  }
+  
+  .panel {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+  }
+  .accordionsection{
+    max-width: 90%;
+    margin:0 auto;
+    padding:15px;
+  
+  }
+  
+  /* MENSAJE EXITOSO*/
+  
+  .mensaje-exito{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .mensaje-exito h1{
+      font-size: 35px;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .mensaje-exito a{
+      display: block;
+      padding: 10px 30px;
+      background: #4091EC;
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .mensaje-exito a:hover{
+      background: #3371B6;
+  }

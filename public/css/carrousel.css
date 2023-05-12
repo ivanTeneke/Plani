@@ -1,0 +1,14 @@
+.carrousel-styles{
+    position: absolute;
+    left: 300px;
+}
+
+.carousel-inner{
+    position: relative;
+    left: 80px;
+    padding: 10px;
+}
+
+.d-block{
+    width: 90% !important;
+}
